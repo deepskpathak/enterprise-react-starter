@@ -1,8 +1,8 @@
 /**
  * Service Generator
  */
-const componentExists = require('../utils/componentExists');
 const Handlebars = require('handlebars');
+const componentExists = require('../utils/componentExists');
 
 /**
  * register constant name that will turn thisIsConstant into THIS_IS_CONSTANT

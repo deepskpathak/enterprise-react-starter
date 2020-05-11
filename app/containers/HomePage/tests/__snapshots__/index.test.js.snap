@@ -4,10 +4,10 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
 <article>
   <div>
     <section
-      class="Section-sc-1eulrsm-0 CenteredSection-sc-6zy0wx-0 imGCbL"
+      class="Section-nbk8ys-0 CenteredSection-jiekqv-0 bpDNaq"
     >
       <h2
-        class="H2-egphza-0 HsCXl"
+        class="H2-sc-1gag1k7-0 ciiLUe"
       >
         <span>
           Start your next react project in seconds
@@ -20,17 +20,17 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
       </p>
     </section>
     <section
-      class="Section-sc-1eulrsm-0 eTEsZl"
+      class="Section-nbk8ys-0 jaqAfG"
     >
       <h2
-        class="H2-egphza-0 HsCXl"
+        class="H2-sc-1gag1k7-0 ciiLUe"
       >
         <span>
           Try me!
         </span>
       </h2>
       <form
-        class="Form-dmhz4x-0 ZClLh"
+        class="Form-sc-5jerhd-0 fZsYIq"
       >
         <label
           for="username"
@@ -39,14 +39,14 @@ exports[`<HomePage /> should render and match the snapshot 1`] = `
             Show Github repositories by
           </span>
           <span
-            class="AtPrefix-sc-1suuq8o-0 fvrDQr"
+            class="AtPrefix-sc-1ignvoe-0 dHPsvD"
           >
             <span>
               @
             </span>
           </span>
           <input
-            class="Input-sc-19rkjmi-0 gyJaEd"
+            class="Input-sc-1qn77yt-0 ldlaXf"
             id="username"
             placeholder="mxstbr"
             type="text"

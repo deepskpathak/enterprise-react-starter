@@ -18,6 +18,7 @@ const prettify = require('./utils/prettify');
  * @type {string}
  */
 const BACKUPFILE_EXTENSION = 'rbgen';
+const cwd = process.cwd();
 
 module.exports = plop => {
   plop.setGenerator('component', componentGenerator);

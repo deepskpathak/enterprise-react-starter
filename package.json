@@ -1,10 +1,11 @@
 {
   "name": "enterprise-react-boilerplate",
   "version": "1.0.0",
+  "author": "Deepak Kumar",
   "description": "A highly scalable, offline-first foundation with the best DX and a focus on performance and best practices",
   "repository": {
     "type": "git",
-    "url": "git://github.com/react-boilerplate/react-boilerplate.git"
+    "url": "https://github.com/deepskpathak/enterprise-react-starter"
   },
   "engines": {
     "npm": ">=6",
@@ -58,108 +59,6 @@
   "resolutions": {
     "babel-core": "7.0.0-bridge.0"
   },
-  "prettier": {
-    "singleQuote": true,
-    "jsxBracketSameLine": true,
-    "arrowParens": "always",
-    "trailingComma": "es5"
-  },
-  "eslintConfig": {
-    "parser": "babel-eslint",
-    "extends": [
-      "airbnb",
-      "prettier",
-      "prettier/react"
-    ],
-    "env": {
-      "browser": true,
-      "node": true,
-      "jest": true,
-      "es6": true
-    },
-    "plugins": [
-      "redux-saga",
-      "react",
-      "jsx-a11y"
-    ],
-    "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module",
-      "ecmaFeatures": {
-        "jsx": true
-      }
-    },
-    "rules": {
-      "prefer-destructuring": [
-        "error",
-        {
-          "object": false,
-          "array": false
-        }
-      ],
-      "arrow-parens": [
-        "error",
-        "always"
-      ],
-      "quotes": [
-        "error",
-        "single",
-        {
-          "allowTemplateLiterals": true
-        }
-      ],
-      "arrow-body-style": [
-        2,
-        "as-needed"
-      ],
-      "class-methods-use-this": 0,
-      "comma-dangle": [
-        2,
-        "always-multiline"
-      ],
-      "import/imports-first": 0,
-      "import/newline-after-import": 0,
-      "import/no-dynamic-require": 0,
-      "import/no-extraneous-dependencies": 0,
-      "import/no-named-as-default": 0,
-      "import/no-unresolved": 2,
-      "import/no-webpack-loader-syntax": 0,
-      "import/prefer-default-export": 0,
-      "indent": [
-        2,
-        2,
-        {
-          "SwitchCase": 1
-        }
-      ],
-      "max-len": 0,
-      "newline-per-chained-call": 0,
-      "no-confusing-arrow": 0,
-      "no-console": 1,
-      "no-use-before-define": 0,
-      "prefer-template": 2,
-      "react/forbid-prop-types": 0,
-      "react/jsx-first-prop-new-line": [
-        2,
-        "multiline"
-      ],
-      "react/jsx-filename-extension": 0,
-      "react/jsx-no-target-blank": 0,
-      "react/require-default-props": 0,
-      "react/require-extension": 0,
-      "react/self-closing-comp": 0,
-      "redux-saga/no-yield-in-race": 2,
-      "redux-saga/yield-effects": 2,
-      "require-yield": 0
-    },
-    "settings": {
-      "import/resolver": {
-        "webpack": {
-          "config": "./internals/webpack/webpack.prod.babel.js"
-        }
-      }
-    }
-  },
   "dependencies": {
     "@hot-loader/react-dom": "16.11.0",
     "chalk": "3.0.0",
@@ -175,10 +74,11 @@
     "invariant": "2.2.4",
     "ip": "1.1.5",
     "lodash": "4.17.15",
-    "minimist": "1.2.0",
+    "minimist": "1.2.5",
     "offline-plugin": "5.0.7",
     "prop-types": "15.7.2",
     "rambda": "5.1.1",
+    "ramda": "0.27.0",
     "react": "16.11.0",
     "react-app-polyfill": "1.0.4",
     "react-dom": "16.11.0",
@@ -218,8 +118,8 @@
     "babel-plugin-transform-react-remove-prop-types": "0.4.24",
     "circular-dependency-plugin": "5.2.0",
     "compare-versions": "3.5.1",
-    "compression-webpack-plugin": "3.0.0",
-    "coveralls": "3.0.8",
+    "compression-webpack-plugin": "3.1.0",
+    "coveralls": "3.1.0",
     "css-loader": "3.2.0",
     "error-overlay-webpack-plugin": "0.4.1",
     "eslint": "6.7.0",
