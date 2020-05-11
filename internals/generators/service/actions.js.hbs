@@ -1,0 +1,43 @@
+/**
+ * {{ name }} Service Actions
+ */
+
+import {
+  MAKE_REQUEST,
+  NOT_ASKED,
+  LOADING,
+  SUCCESS,
+  FAILURE,
+} from './constants';
+
+const makeRequest = (params) => ({
+  type: MAKE_REQUEST,
+  params,
+});
+
+const notAsked = () => ({
+  type: NOT_ASKED,
+});
+
+const loading = (params) => ({
+  type: LOADING,
+  params,
+});
+
+const success = (results) => ({
+  type: SUCCESS,
+  results,
+});
+
+const failure = (error) => ({
+  type: FAILURE,
+  error,
+});
+
+export {
+  makeRequest,
+  notAsked,
+  loading,
+  success,
+  failure,
+};
